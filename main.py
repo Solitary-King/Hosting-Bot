@@ -70,7 +70,7 @@ IROTECH_DIR = os.path.join(BASE_DIR, "inf")
 DATABASE_PATH = os.path.join(IROTECH_DIR, "bot_data.db")
 
 # File upload limits
-FREE_USER_LIMIT = 1  # Default free limit
+FREE_USER_LIMIT = 0  # Default free limit
 SUBSCRIBED_USER_LIMIT = 10
 ADMIN_LIMIT = 999
 OWNER_LIMIT = float("inf")
