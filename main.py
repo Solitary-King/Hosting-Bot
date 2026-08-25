@@ -60,7 +60,7 @@ UPDATE_CHANNEL = "https://t.me/solitary_hacker"
 
 # --- Binance Pay Integration Config ---
 BINANCE_API_KEY = os.environ.get("API_KEY")  # আপনার API Key
-BINANCE_SECRET_KEY = os.environ.get("SECRET_KEY)"
+BINANCE_SECRET_KEY = os.environ.get("SECRET_KEY")
 BINANCE_PAY_ID = int(os.environ.get("PAY_ID"))  # আপনার Binance Pay ID
 
 # Folder setup - using absolute paths
